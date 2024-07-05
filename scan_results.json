@@ -1,0 +1,37 @@
+{
+    "gateway_ip": "192.168.0.1",
+    "gateway_hostname": "Nom d'h\u00f4te inconnu",
+    "results": {
+        "192.168.0.1": {
+            "host_name": "Nom d'h\u00f4te inconnu",
+            "nmap_result": "Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-21 18:40 CEST\nNmap scan report for 192.168.0.1\nHost is up (0.023s latency).\n\nPORT     STATE  SERVICE       VERSION\n21/tcp   closed ftp\n22/tcp   closed ssh\n23/tcp   closed telnet\n25/tcp   closed smtp\n53/tcp   open   domain        dnsmasq 2.78\n80/tcp   open   http          lighttpd 1.4.35\n110/tcp  closed pop3\n111/tcp  closed rpcbind\n135/tcp  closed msrpc\n139/tcp  closed netbios-ssn\n143/tcp  closed imap\n443/tcp  closed https\n445/tcp  closed microsoft-ds\n993/tcp  closed imaps\n995/tcp  closed pop3s\n1723/tcp closed pptp\n3306/tcp closed mysql\n3389/tcp closed ms-wbt-server\n5900/tcp closed vnc\n8080/tcp closed http-proxy\nMAC Address: 40:ED:00:8A:E8:0D (Unknown)\n\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\nNmap done: 1 IP address (1 host up) scanned in 6.81 seconds\n",
+            "port_check_result": "HTTP (port : 80) ouvert\nAlternate HTTP (port : 81) ferm\u00e9 ou filtr\u00e9\nHTTPS (port : 443) ferm\u00e9 ou filtr\u00e9\nSSH (port : 22) ferm\u00e9 ou filtr\u00e9\nFTP (port : 21) ferm\u00e9 ou filtr\u00e9\nTelnet (port : 23) ferm\u00e9 ou filtr\u00e9\nSMTP (port : 25) ferm\u00e9 ou filtr\u00e9\nDNS (port : 53) ouvert\nPOP3 (port : 110) ferm\u00e9 ou filtr\u00e9\nIMAP (port : 145) ferm\u00e9 ou filtr\u00e9\nRPC (port : 135) ferm\u00e9 ou filtr\u00e9\nNetBIOS Name Service (port : 137) ferm\u00e9 ou filtr\u00e9\nNetBIOS Session Service (port : 139) ferm\u00e9 ou filtr\u00e9\nRemote Desktop Protocol (port : 3389) ferm\u00e9 ou filtr\u00e9\nMicrosoft SQL Server (port : 1433) ferm\u00e9 ou filtr\u00e9\nMySQL (port : 3306) ferm\u00e9 ou filtr\u00e9\nVNC (port : 5900) ferm\u00e9 ou filtr\u00e9\nHTTP Alternate (port : 8080) ferm\u00e9 ou filtr\u00e9\nHTTPS Alternate (port : 8443) ferm\u00e9 ou filtr\u00e9",
+            "traffic_capture_file": "Non effectu\u00e9",
+            "cve_results": {
+                "53/tcp": [
+                    "Aucune CVE trouv\u00e9e pour domain dnsmasq 2.78"
+                ],
+                "80/tcp": [
+                    "Aucune CVE trouv\u00e9e pour http lighttpd 1.4.35"
+                ],
+                "ouvert": [
+                    "Aucune CVE trouv\u00e9e pour unknown unknown"
+                ]
+            }
+        },
+        "192.168.0.148": {
+            "host_name": "MBP-de-Maxime",
+            "nmap_result": "Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-21 18:40 CEST\nNmap scan report for 192.168.0.148\nHost is up (0.011s latency).\n\nPORT     STATE  SERVICE       VERSION\n21/tcp   closed ftp\n22/tcp   closed ssh\n23/tcp   closed telnet\n25/tcp   closed smtp\n53/tcp   closed domain\n80/tcp   closed http\n110/tcp  closed pop3\n111/tcp  closed rpcbind\n135/tcp  closed msrpc\n139/tcp  closed netbios-ssn\n143/tcp  closed imap\n443/tcp  closed https\n445/tcp  closed microsoft-ds\n993/tcp  closed imaps\n995/tcp  closed pop3s\n1723/tcp closed pptp\n3306/tcp closed mysql\n3389/tcp closed ms-wbt-server\n5900/tcp closed vnc\n8080/tcp closed http-proxy\nMAC Address: 10:9F:41:C5:A9:82 (Unknown)\n\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\nNmap done: 1 IP address (1 host up) scanned in 2.70 seconds\n",
+            "port_check_result": "HTTP (port : 80) ferm\u00e9 ou filtr\u00e9\nAlternate HTTP (port : 81) ferm\u00e9 ou filtr\u00e9\nHTTPS (port : 443) ferm\u00e9 ou filtr\u00e9\nSSH (port : 22) ferm\u00e9 ou filtr\u00e9\nFTP (port : 21) ferm\u00e9 ou filtr\u00e9\nTelnet (port : 23) ferm\u00e9 ou filtr\u00e9\nSMTP (port : 25) ferm\u00e9 ou filtr\u00e9\nDNS (port : 53) ferm\u00e9 ou filtr\u00e9\nPOP3 (port : 110) ferm\u00e9 ou filtr\u00e9\nIMAP (port : 145) ferm\u00e9 ou filtr\u00e9\nRPC (port : 135) ferm\u00e9 ou filtr\u00e9\nNetBIOS Name Service (port : 137) ferm\u00e9 ou filtr\u00e9\nNetBIOS Session Service (port : 139) ferm\u00e9 ou filtr\u00e9\nRemote Desktop Protocol (port : 3389) ferm\u00e9 ou filtr\u00e9\nMicrosoft SQL Server (port : 1433) ferm\u00e9 ou filtr\u00e9\nMySQL (port : 3306) ferm\u00e9 ou filtr\u00e9\nVNC (port : 5900) ferm\u00e9 ou filtr\u00e9\nHTTP Alternate (port : 8080) ferm\u00e9 ou filtr\u00e9\nHTTPS Alternate (port : 8443) ferm\u00e9 ou filtr\u00e9",
+            "traffic_capture_file": "Non effectu\u00e9",
+            "cve_results": {}
+        },
+        "192.168.0.136": {
+            "host_name": "kali-max",
+            "nmap_result": "Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-21 18:40 CEST\nNmap scan report for 192.168.0.136\nHost is up (0.000020s latency).\n\nPORT     STATE  SERVICE       VERSION\n21/tcp   closed ftp\n22/tcp   closed ssh\n23/tcp   closed telnet\n25/tcp   closed smtp\n53/tcp   closed domain\n80/tcp   closed http\n110/tcp  closed pop3\n111/tcp  closed rpcbind\n135/tcp  closed msrpc\n139/tcp  closed netbios-ssn\n143/tcp  closed imap\n443/tcp  closed https\n445/tcp  closed microsoft-ds\n993/tcp  closed imaps\n995/tcp  closed pop3s\n1723/tcp closed pptp\n3306/tcp closed mysql\n3389/tcp closed ms-wbt-server\n5900/tcp closed vnc\n8080/tcp closed http-proxy\n\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\nNmap done: 1 IP address (1 host up) scanned in 1.18 seconds\n",
+            "port_check_result": "HTTP (port : 80) ferm\u00e9 ou filtr\u00e9\nAlternate HTTP (port : 81) ferm\u00e9 ou filtr\u00e9\nHTTPS (port : 443) ferm\u00e9 ou filtr\u00e9\nSSH (port : 22) ferm\u00e9 ou filtr\u00e9\nFTP (port : 21) ferm\u00e9 ou filtr\u00e9\nTelnet (port : 23) ferm\u00e9 ou filtr\u00e9\nSMTP (port : 25) ferm\u00e9 ou filtr\u00e9\nDNS (port : 53) ferm\u00e9 ou filtr\u00e9\nPOP3 (port : 110) ferm\u00e9 ou filtr\u00e9\nIMAP (port : 145) ferm\u00e9 ou filtr\u00e9\nRPC (port : 135) ferm\u00e9 ou filtr\u00e9\nNetBIOS Name Service (port : 137) ferm\u00e9 ou filtr\u00e9\nNetBIOS Session Service (port : 139) ferm\u00e9 ou filtr\u00e9\nRemote Desktop Protocol (port : 3389) ferm\u00e9 ou filtr\u00e9\nMicrosoft SQL Server (port : 1433) ferm\u00e9 ou filtr\u00e9\nMySQL (port : 3306) ferm\u00e9 ou filtr\u00e9\nVNC (port : 5900) ferm\u00e9 ou filtr\u00e9\nHTTP Alternate (port : 8080) ferm\u00e9 ou filtr\u00e9\nHTTPS Alternate (port : 8443) ferm\u00e9 ou filtr\u00e9",
+            "traffic_capture_file": "Non effectu\u00e9",
+            "cve_results": {}
+        }
+    }
+}
