@@ -45,6 +45,7 @@ pip install -r requirements.txt
 ```
 
 **Exécution**
+
 Lancez le script principal :
 ```sh
 sudo python3 script_patout.py
