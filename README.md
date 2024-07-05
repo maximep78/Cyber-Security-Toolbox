@@ -64,6 +64,7 @@ Un rapport HTML détaillé est généré après chaque exécution et inclut :
   - Conformité des mots de passe 🔐
   - Résultats des scans réseau 🌐
   - Analyse des vulnérabilités (CVE) 🛡️
+
 Le rapport peut être converti en PDF directement via l'interface HTML.
 
 ## 📄 License
